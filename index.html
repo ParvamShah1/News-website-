@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World Times</title>
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <!-- Font Awesome CSS for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Your custom styles here */
+        #navbar{
+            background-color: #982B1C;
+        }
+        .navbar-burger {
+            cursor: pointer;
+        }
+        
+        
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar" class="navbar is-primary is-fixed-top px-4" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                <img src="logo-transparent (1).png" alt="The World Times" style="padding: 5px 5px; background: white; box-sizing: content-box; border-radius: 10px;">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" onclick="document.getElementById('navbar-menu').classList.toggle('is-active'); this.classList.toggle('is-active');">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbar-menu" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item has-text-weight-semibold" href="/">Home</a>
+                <a class="navbar-item has-text-weight-semibold" href="/category/event">Highlights</a>
+                <a class="navbar-item has-text-weight-semibold" href="/category/state">State</a>
+                <a class="navbar-item has-text-weight-semibold" href="/category/fact">Facts</a>
+                <!--a class="navbar-item has-text-weight-semibold" href="/category/sport">Sports</a-->
+                <a class="navbar-item has-text-weight-semibold" href="/category/lifestyle">Lifestyle</a>
+                <!--a class="navbar-item has-text-weight-semibold" href="/category/tech">Technology</a-->
+                <a class="navbar-item has-text-weight-semibold" href="/category/business">Business</a>
+                <a class="navbar-item has-text-weight-semibold" href="/category/politic">Politics</a>
+                <a class="navbar-item has-text-weight-semibold" href="/category/entertainment">Entertainment</a>
+            </div>
+
+            <div class="navbar-end">
+                <a target="_blank" rel="noopener noreferrer" class="navbar-item" href="https://www.instagram.com/theworldtimes.in/"><i class="fab fa-instagram fa-xl"></i><span class="is-hidden-desktop ml-2">Instagram</span></a>
+                <a target="_blank" rel="noopener noreferrer" class="navbar-item" href="https://twitter.com/worldtimes_in"><i class="fab fa-twitter fa-xl"></i><span class="is-hidden-desktop ml-2">Twitter</span></a>
+                <a target="_blank" rel="noopener noreferrer" class="navbar-item" href="https://www.facebook.com/people/The-World-Times/100093097914112/"><i class="fab fa-facebook fa-xl"></i><span class="is-hidden-desktop ml-2">Facebook</span></a>
+                <a target="_blank" rel="noopener noreferrer" class="navbar-item" href="mailto:info@theworldtimes.in"><i class="fas fa-envelope fa-xl"></i><span class="is-hidden-desktop ml-2">E-Mail</span></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Optional JavaScript -->
+    <script>
+        // Add any custom JavaScript here if needed
+    </script>
+    <div class="newsoftheday" >
+      <h1>News of the Day</h1>
+  </div>
+  <div class="headlines-parent">
+  <div class="headlines">
+    <div class="head1">
+      <div class="box1">
+        <img
+          src="32c25009404011ef9949cbcaab10fb3d-thumbnail.png"
+          id="image1"
+        />
+      </div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+          deserunt?
+        </p>
+      </div>
+    </div>
+    <div class="head1">
+      <div class="box1">
+        <img
+          src="36e5d4e04c2a11ef8ed1471a3cca2943-thumbnail.png"
+          id="image1"/>
+        
+      </div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam in modi ex cumque fuga accusantium ipsam tenetur corporis ut eaque.
+        </p>
+      </div>
+    </div>
+    <div class="head1">
+      <div class="box1">
+        <img
+          src="84c9455d4c2911ef84bb5b269045ab5f-thumbnail.png"
+          id="image1"
+        />
+      </div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+          deserunt?
+        </p>
+      </div>
+    </div>
+    
+  
+  </div>
+  </div>
+
+  <div id="heading-latestnews">
+      <h1>Latest News
+      </h1>
+  </div >
+  
+  <div id="latest-news-template">
+      
+        <div id="main-img"><img src="123f2b10-6fb8-11ef-b02d-c5f3b724a1ea.jpg.webp" width="900px" height="630px"><p>Reaction to England's Nations League win as captain Kane scores twice.</p></div>
+       <div id="side-img">
+         <div class ="side-img-child" > <img src="f643ea00-6fe3-11ef-b282-4535eb84fe4b.png.webp" width = "350px" height="200px"><p>Debate brings undecided voters closer to a decision</p></div>
+        <div class ="side-img-child" > <img src="a20c8830-6fec-11ef-b634-1dba200320b8.jpg.webp" alt="" width = "350px" height="200px"><p>Five highlights from Harris-Trump debate
+      </p></div>
+         <div class ="side-img-child" > <img src="5c60e770-6fd0-11ef-9716-f71e6f5767d7.jpg.webp" alt="" width = "350px" height="200px"><p>'Carsley has put his stamp on England - job feels like his to lose'
+      </p></div>
+      </div>
+  
+  </div>
+  <h4>5 hours ago</h4>
+
+  <div class="heading-exclusivearticles" >
+    <h1>Exclusive Articles</h1>
+  </div>
+  <div class="container">
+      <div class="wrapper">
+        <div class="wrapper-holder">
+
+  <div class="slider-image">
+      <img src="728166d0-7037-11ef-b02d-c5f3b724a1ea.jpg.webp" height="200px">
+      <h3>Lorem ipsum dolor sit amet</h3>
+
+      <p style="height: 200px; width: 370px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nisi distinctio commodi? Maxime veniam omnis fugiat ipsa incidunt quaerat minima.</p>
+    </div>
+
+    <div class="slider-image">
+      <img src="a38cb790-7044-11ef-94ac-e3048d012d2b.jpg.webp" height="200px">
+      <h3>Lorem ipsum dolor sit amet</h3>
+
+      <p style="height: 200px; width: 370px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nisi distinctio commodi? Maxime veniam omnis fugiat ipsa incidunt quaerat minima.</p>
+    </div>
+   
+
+    <div class="slider-image">
+      <img src="354f7dc0-6f55-11ef-a017-7b405a77e7bd.jpg.webp" height="200px">
+      <h3>Lorem ipsum dolor sit amet</h3>
+
+      <p style="height: 200px; width: 370px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nisi distinctio commodi? Maxime veniam omnis fugiat ipsa incidunt quaerat minima.</p>
+    </div>
+   
+
+    <div class="slider-image">
+      <img src="5f549ec0-6e8d-11ef-a456-ffdc2ce47a4f.jpg.webp" height="200px">
+      <h3>Lorem ipsum dolor sit amet</h3>
+
+      <p style="height: 200px; width: 370px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nisi distinctio commodi? Maxime veniam omnis fugiat ipsa incidunt quaerat minima.</p>
+    </div>
+   
+    <div class="slider-image">
+      <img src="5f549ec0-6e8d-11ef-a456-ffdc2ce47a4f.jpg.webp" height="200px">
+      <h3>Lorem ipsum dolor sit amet</h3>
+
+      <p style="height: 200px; width: 370px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nisi distinctio commodi? Maxime veniam omnis fugiat ipsa incidunt quaerat minima.</p>
+    </div>
+   
+    <div class="slider-image">
+      <img src="5f549ec0-6e8d-11ef-a456-ffdc2ce47a4f.jpg.webp" height="200px">
+      <h3>Lorem ipsum dolor sit amet</h3>
+
+      <p style="height: 200px; width: 370px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nisi distinctio commodi? Maxime veniam omnis fugiat ipsa incidunt quaerat minima.</p>
+    </div>
+   
+    
+  </div>
+</div>
+</div>
+
+<div class="mustwatch">
+   <div class="mustwatch-h1">
+  <h1>Must read</h1>
+</div>
+<div id="all-articles">
+  <div class="article">
+  <img src="e29135d0-70ba-11ef-858c-3f3146338aaa.jpg.webp" width="300px" alt=""> 
+  <h1>Police rescue 402 minors in care homes after abuse claims</h1>
+  <p>Malayisan authorities say the children endured various forms of abuse, including sexual assault.</p>
+  <h5> 9 hrs ago |
+    Asia</h5>
+
+</div>
+<div class="article">
+  <img src="35d94e70-70da-11ef-8bbe-170e4ab28253.jpg.webp" width="300px" alt=""> 
+  <h1>India doctors defy court order to continue strike over Kolkata rape</h1>
+  <p>Junior doctors in Kolkata are still protesting despite India's top court asking them to get back to work. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus reiciendis non nihil optio hic vitae!
+
+    </p>
+  <h5>5 hrs ago |
+    Asia</h5>
+
+</div>
+<div class="article">
+  <img src="78bfed90-700b-11ef-b282-4535eb84fe4b.jpg.webp" width="300px" alt=""> 
+  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At nobis nostrum dolorem optio incidunt laudantium explicabo sed iusto, praesentium repudiandae?</p>
+  <h5> 11 September,2024 | Arshad</h5>
+
+</div>
+<div class="article">
+  <img src="fc751ae0-70d6-11ef-8c1a-df523ba43a9a.jpg.webp" width="300px" alt=""> 
+  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At nobis nostrum dolorem optio incidunt laudantium explicabo sed iusto, praesentium repudiandae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, vel?</p>
+  <h5> 11 September,2024 | Arshad</h5>
+
+</div>
+</div>
+</div>
+<div class="heading-alsoinnews" >
+  <h1>Also in news</h1>
+</div>
+<div class="section">
+  <div class="container1">
+    <div class="category-tile">
+  <div class="headbar">
+      <div class="content" style="margin-right: 20px;"><a href="#" class="link">Environment&#xbb;</a></div>
+  </div>
+  <div class="contentbar">
+      <img src="670ab870-69ce-11ef-8169-4d00bde109fe.jpg.webp" class="categoryimg">
+      <div class="categories">
+      <h3 class="categoryhead">Trump's message of American decline resonates with pivotal voters</h3>
+      <p class="categorypara">Kamala Harris rattled her rival at the debate, but he's still winning in Michigan on issues that may decide election.
+
+      </p>
+  </div>
+  </div>
+  </div>
+  <div class="category-tile">
+
+  <div class="headbar">
+      <div class="content" style="margin-right: 20px;"><a href="#" class="link">Politics&#xbb;</a></div>
+  </div>
+  <div class="contentbar">
+      <img src="24e98950-7089-11ef-b34b-d51c0d1b0fff.jpg.webp" class="categoryimg">
+      <div class="categories">
+      <h3 class="categoryhead">'Sport's trial of the century to begin': Premier League v Man City on 115 charges</h3>
+      <p class="categorypara">Man City's trial on 115 charges of breaking Premier League rules is set to begin. BBC Sport looks at why it matters and how we got here.</p>
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="container2">
+  <div class="category-tile">
+
+  <div class="headbar">
+      <div class="content" style="margin-right: 20px;"><a href="#" class="link">Cultural&#xbb;</a></div>
+  </div>
+  <div class="contentbar">
+      <img src="p0jnsff8.jpg.webp" class="categoryimg">
+      <div class="categories">
+      <h3 class="categoryhead">Soaring cost of King’s Guards' real fur bearskin caps revealed</h3>
+      <p class="categorypara">Bearskin caps worn by soldiers outside Buckingham Palace cost more than £2,000 each, says MOD.
+
+      </p>
+  </div>
+  </div>
+  </div>
+  <div class="category-tile">
+
+  <div class="headbar">
+      <div class="content" style="margin-right: 20px;"><a href="#" class="link">Sports&#xbb;</a></div>
+  </div>
+  <div class="contentbar">
+      <img src="1ed38d10-7050-11ef-8724-35406148d765.jpg.webp" class="categoryimg">
+      <div class="categories">
+      <h3 class="categoryhead">What are Storm Shadow missiles and why are they crucial for Ukraine?</h3>
+      <p class="categorypara">Western states have long been cautious about allowing Ukraine to use their missiles against Russia. </p>
+  </div>
+  </div>
+</div>
+</div>
+
+</div>
+<footer id="footer" class="footer p-0 m-0 has-background-white-bis" style="z-index: 100;">
+  <div class="container is-fullhd p-4" style="z-index: 100;">
+      <div class="columns p-4">
+          <div class="column">
+              <div class="content">
+                  <img src="logo-transparent (1).png" alt="The World Times" width="128px" height="128px">
+                  <br><br>
+                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+                  <br>
+                  Copyrights <a href="/">theworldtimes.in</a> (c) 2023 - All Rights Reserved, licensed under
+                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                      CC 4.0 License
+                  </a>
+              </div>
+          </div>
+          <div class="divider is-vertical is-black"></div>
+          <div class="column">
+              <div class="content">
+                  <h3 class="title">CONTACT US</h3>
+                  <div class="mb-2">
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/theworldtimes.in/">
+                          <i class="fa-brands fa-instagram fa-xl"></i>
+                          <span class="ml-2 has-text-weight-semibold">
+                              Instagram
+                          </span>
+                      </a>
+                  </div>
+                  <div class="mb-2">
+                      <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/worldtimes_in">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                          <span class="ml-2 has-text-weight-semibold">
+                              Twitter
+                          </span>
+                      </a>
+                  </div>
+                  <div class="mb-2">
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/people/The-World-Times/100093097914112/">
+                          <i class="fa-brands fa-facebook fa-xl"></i>
+                          <span class="ml-2 has-text-weight-semibold">
+                              Facebook
+                          </span>
+                      </a>
+                  </div>
+                  <div class="mb-2">
+                      <a target="_blank" rel="noopener noreferrer" href="mailto:info@theworldtimes.in">
+                          <i class="fa-solid fa-envelope fa-xl"></i>
+                          <span class="ml-2 has-text-weight-semibold">
+                              E-Mail
+                          </span>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="divider is-vertical is-black"></div>
+          <div class="column">
+              <div class="content">
+                  <h3 class="title">QUICK LINKS</h3>
+                  <a href="/dash">Dashboard</a><br>
+                  <a href="/policy/ads">Advertise with us</a><br>
+                  <a href="/policy">TAC &amp; Privacy Policy</a><br>
+                  <!--a href="/credits">Credits</a><br-->
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
